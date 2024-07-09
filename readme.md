@@ -1,5 +1,7 @@
 # Hotel Booking ChatBot (SastaBot9)
 
+[demo.webm](https://github.com/garvit420/hotel-booking-chatbot/assets/140915288/e7a717dc-be24-414d-8836-bba5ce4274f4)
+
 SastaBot9 is a chatbot powered by the OpenAI API, designed to assist customers with hotel bookings through chat. It integrates a Telegram bot for easy interaction, allowing users to inquire about available rooms or book directly from their Telegram app.
 
 ## Project Setup
