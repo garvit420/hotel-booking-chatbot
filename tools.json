@@ -1,0 +1,39 @@
+[
+    {
+        "type": "function",
+        "function": {
+            "name": "bookRoom",
+            "description": "Book a room and obtain a booking ID. This function is used when the user has provided all necessary details and is ready to confirm the booking.",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "roomId": {
+                        "type": "number",
+                        "description": "The ID of the room the user wishes to book. Example: 1"
+                    },
+                    "fullName": {
+                        "type": "string",
+                        "description": "The full name of the user."
+                    },
+                    "email": {
+                        "type": "string",
+                        "description": "The email address of the user."
+                    },
+                    "nights": {
+                        "type": "number",
+                        "description": "The number of nights the user wants to book the room for. This can be determined from the booking dates provided by the user."
+                    }
+                },
+                "required": ["roomId", "fullName", "email", "nights"]
+            }
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "getRoomOptions",
+            "description": "Retrieve available rooms for booking with their details, including room ID, name, description, and price per day for booking."
+        },
+        "required" : []
+    }
+]
